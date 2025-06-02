@@ -28,6 +28,7 @@ import { DateTime } from "luxon";
 // const ISOdate = "2025-06-02T10:09:43.217+02:00";
 // const date = new DateTime(ISOdate);
 // console.log(date);
+import "dotenv/config";
 
 import { getCurrentWeatherByCity } from "./weatherApi.js";
 
