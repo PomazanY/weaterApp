@@ -1,9 +1,10 @@
 import axios from "axios";
+import { weatherAccessKey } from "./config.js";
 
 const weatherInstance = axios.create({
     baseURL: "https://api.weatherstack.com",
     params: {
-        access_key: "a80cd882dc86a1b4350ad6d26aec07f4",
+        access_key: weatherAccessKey,
     }
 });
 

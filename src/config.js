@@ -1,0 +1,1 @@
+export const weatherAccessKey = "a80cd882dc86a1b4350ad6d26aec07f4"
