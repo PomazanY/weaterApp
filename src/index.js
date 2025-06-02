@@ -32,5 +32,5 @@ import { DateTime } from "luxon";
 import { getCurrentWeatherByCity } from "./weatherApi.js";
 
 const weaterData = await getCurrentWeatherByCity("Veldenz");
-console.log(weaterData);
+// console.log(weaterData);
 console.log(`Temperature in Veldenz now: ${weaterData.current.temperature}`);
